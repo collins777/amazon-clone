@@ -1,0 +1,115 @@
+.header {
+  display: grid;
+  grid-template-rows: 65px 50px;
+  z-index: 100;
+  color: #fff;
+}
+
+/* Primary Nav */
+
+div.header__primary {
+  display: flex;
+  align-items: center;
+  background-color: #0f1111;
+  position: sticky;
+  top: 0;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Secondary Nav */
+
+div.header__secondary {
+  background-color: #23303e;
+  display: flex;
+  align-items: center;
+}
+
+div.header__secondary > .header__option {
+  padding: 10px;
+}
+
+div.header__secondary div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 90%;
+}
+/* Icons */
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #febd69;
+  color: black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header__menuIcon {
+  /* margin-top: 0; */
+  margin-right: 10px;
+}
+
+/* Header Options */
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* SHOPPING CART */
+
+.header__optionCart {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__cartCount {
+  font-size: 12px;
+  color: black;
+  position: relative;
+  right: 22px;
+  bottom: 6px;
+}
+
+a {
+  color: white;
+}
